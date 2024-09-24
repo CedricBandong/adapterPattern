@@ -1,4 +1,4 @@
-public class LaptopAdapter implements Outlet{
+public class LaptopAdapter implements PowerOutlet{
     
     private Laptop laptop;
 
