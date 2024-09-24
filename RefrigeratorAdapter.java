@@ -1,4 +1,4 @@
-public class RefrigeratorAdapter implements Outlet{
+public class RefrigeratorAdapter implements PowerOutlet{
     
     private Refrigerator refrigerator;
 
