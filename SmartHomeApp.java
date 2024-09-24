@@ -7,9 +7,9 @@ public class SmartHomeApp {
         Laptop laptop = new Laptop();
         Refrigerator refrigerator  = new Refrigerator();
         SmartphoneCharger smartphoneCharger = new SmartphoneCharger();
-        Outlet laptopAdapter = new LaptopAdapter(laptop);
-        Outlet refrigeratorAdapter = new RefrigeratorAdapter(refrigerator);
-        Outlet smartphoneAdapter = new SmartphoneAdapter(smartphoneCharger);
+        PowerOutlet laptopAdapter = new LaptopAdapter(laptop);
+        PowerOutlet refrigeratorAdapter = new RefrigeratorAdapter(refrigerator);
+        PowerOutlet smartphoneAdapter = new SmartphoneAdapter(smartphoneCharger);
         
         Scanner s = new Scanner(System.in);
 
@@ -27,7 +27,7 @@ public class SmartHomeApp {
 
             int device = s.nextInt();
 
-            Outlet selectedAdapter = null;
+            PowerOutlet selectedAdapter = null;
 
             switch (device) {
                 case 1:
